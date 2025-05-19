@@ -79,10 +79,10 @@ DeviceFileEvents
 - **Author Contact**: https://www.linkedin.com/in/joshmadakor/
 - **Date**: August 31, 2024
 
-## Validated By:
-- **Reviewer Name**: 
-- **Reviewer Contact**: 
-- **Validation Date**: 
+## Validated By: Daniel Botomogno
+- **Reviewer Name**: Daniel Botomogno
+- **Reviewer Contact**: https://www.linkedin.com/in/daniel-botomogno-fsri-flmi-35992588/
+- **Validation Date**: May 19, 2025
 
 ---
 
