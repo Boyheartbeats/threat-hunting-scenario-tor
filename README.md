@@ -48,7 +48,7 @@ DeviceFileEvents
 
 ### 2. Searched the `DeviceProcessEvents` Table
 
-Searched the DeviceProcessEvents table for any ProcessCommandLine that started with  “tor-browser”. Based on the logs returned at  May 19, 2025, at 9:36:14 AM, the user account dbwindowsadmin on the device db-defender-lab executed the file tor-browser-windows-x86_64-portable-14.5.2.exe from the path C:\Users\DBWindowsadmin\Downloads\. The command used was tor-browser-windows-x86_64-portable-14.5.2.exe /S, indicating a silent installation of the Tor Browser. The SHA256 hash of the file is 3d55deb5dc8f0dc7fb694608ea15d255078e1087174d49d9a8fff6dc3f16b7ec.
+Searched the DeviceProcessEvents table for any ProcessCommandLine that started with  “tor-browser”. Based on the logs returned at  May `19`, `2025`, at `9:36:14 AM`, the user account dbwindowsadmin on the device db-defender-lab executed the file `tor-browser-windows-x86_64-portable-14.5.2.exe` from the path `C:\Users\DBWindowsadmin\Downloads\`. The command used was `tor-browser-windows-x86_64-portable-14.5.2.exe /S`, indicating a silent installation of the Tor Browser. The SHA256 hash of the file is `3d55deb5dc8f0dc7fb694608ea15d255078e1087174d49d9a8fff6dc3f16b7ec`.
 
 **Query used to locate event:**
 
