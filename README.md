@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/79dcd4db-e33a-4537-96e5-0e1dec28435b)<img width="400" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor Logo with the onion and a crosshair on it"/>
+
 
 # Threat Hunt Report: Unauthorized TOR Usage
 - [Scenario Creation](https://github.com/Boyheartbeats/threat-hunting-scenario-tor/blob/main/threat-hunting-scenario-tor-event-creation.md)
@@ -91,7 +91,7 @@ DeviceProcessEvents
 
 
 
-Searched the DeviceNetworkEvents table for any indication the TOR browser was used to establish connection using any of the known TOR ports. On May `19`, `2025`, at `9:37:12` AM, the user account dbwindowsadmin on the device db-defender-lab successfully initiated a network connection to the IP address `150.230.20.28` over TCP port `9001`. This connection was made using the executable `tor.exe`, located in the folder `C:\Users\DBWindowsadmin\Desktop\Tor Browser\Browser\TorBrowser\Tor\`. 
+Searched the DeviceNetworkEvents table for any indication the TOR browser was used to establish connection using any of the known TOR ports. On May `19`, `2025`, at `9:37:12` AM, the user account dbwindowsadmin on the device db-defender-lab successfully initiated a network connection to the IP address `150.230.20.28` over TCP port `9001`. This connection was made using the executable `tor.exe`, located in the folder `C:\Users\DBWindowsadmin\Desktop\Tor Browser\Browser\TorBrowser\Tor\`. TCP port `9001` is commonly used by Tor relays for onion routing traffic, indicating that the Tor Browser was likely active on this system at the time. There were a couple connection to sites over `443` as well.
 
 
 **Query used to locate events:**
